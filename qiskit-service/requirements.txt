@@ -1,0 +1,7 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+qiskit==0.45.0
+qiskit-aer==0.12.2
+numpy==1.24.3
+pydantic==2.5.0
+python-dotenv==1.0.0
