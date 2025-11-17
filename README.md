@@ -1,6 +1,6 @@
 # QTransfer — Quantum-Secure File Transfer
 
-http://localhost:8000/docshttp://localhost:8000/docs**Tagline:** *Wormhole meets Quantum — future-proof file sharing*
+**Tagline:** *Wormhole meets Quantum — future-proof file sharing*
 
 QTransfer is a production-quality demo that simulates BB84 quantum key distribution (QKD), derives AES-GCM keys, and enables encrypted file transfer with real-time QBER visualization and Eve simulation. It’s built for demos, teaching, and research extension.
 
