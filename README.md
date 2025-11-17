@@ -1,6 +1,6 @@
 # QTransfer — Quantum-Secure File Transfer
 
-**Tagline:** *Wormhole meets Quantum — future-proof file sharing*
+http://localhost:8000/docshttp://localhost:8000/docs**Tagline:** *Wormhole meets Quantum — future-proof file sharing*
 
 QTransfer is a production-quality demo that simulates BB84 quantum key distribution (QKD), derives AES-GCM keys, and enables encrypted file transfer with real-time QBER visualization and Eve simulation. It’s built for demos, teaching, and research extension.
 
@@ -30,5 +30,5 @@ cd backend
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
-# API docs at http://localhost:8000/docs
+uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+# API docs at http://localhost:8000/api/docs
